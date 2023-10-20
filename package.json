@@ -2,15 +2,12 @@
   "name": "survey-app",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://muharjunn.github.io/Survey-app",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "Survey-app -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "prop-types": "^15.8.1",
